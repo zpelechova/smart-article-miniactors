@@ -1,6 +1,6 @@
 {
   "title": "Input schema for Smart article extractor",
-  "description": "Input for Smart article extractor",
+  "description": "Based on your use case, input either a URL that will scrape the news site or a category (e.g. “sports”) located on the portal. Limit articles extracted based on their number, date or, if scraping periodically, only new publications.",
   "type": "object",
   "schemaVersion": 1,
   "properties": {
