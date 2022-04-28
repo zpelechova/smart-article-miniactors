@@ -15,7 +15,7 @@
       "title": "Max articles per crawl",
       "type": "integer",
       "description": "Maximum number of valid articles scraped. The crawler will stop automatically after reaching this number.",
-      "prefill": "100"
+      "prefill": 100
     },
     "dateFrom": {
       "title": "Date from",
