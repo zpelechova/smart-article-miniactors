@@ -5,7 +5,7 @@ Apify.main(async () => {
 
     await Apify.metamorph('lukaskrivka/article-extractor-smart', {
         ...input,
-        
+        enqueueFromArticles: true,
         proxy: {
             "useApifyProxy": true,
         },
